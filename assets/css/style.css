@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1000px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.user--info {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.user--image {
+    width: 100px;
+    border-radius: 10px;
+}
+
+.user--name {
+    margin: 20px 0;
+    color: #4e5150;
+}
+
+.user--area {
+    color: #a9a9a9;
+    font-size: 0.8rem;
+    margin: 5px;
+}
+
+.user--status {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.user--status li {
+    margin: 0 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #4e5150;
+    background-color: #e5e5e5;
+    font-weight: 700;
+}
+
+.users--handle {
+    color: #bdbdbd;
+}
+
+.images--list {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 31%);
+    grid-gap: 20px;
+    justify-items: stretch;
+}
+
+
+
+.image--item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.image1 {
+    grid-column: 1 / span 1;
+}
+
+.image2 {
+    grid-column: 2 / span 2;
+}
+
+.image3 {
+    grid-column: 1 / span 2;
+}
+
+.image4 {
+    grid-column: 3 / span 1;
+    grid-row: 2 / span 2;
+}
+
+@media (min-width: 720px) {
+    .user--image {
+        width: 150px;
+        border-radius: 10px;
+    }
+
+    .user--area {
+        color: #a9a9a9;
+        font-size: 1.2rem;
+        margin: 10px;
+    }
+
+    .user--status {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    span {
+        display: block;
+        padding: 0 20px;
+    }
+
+    .user--status li {
+        margin: 0 20px;
+        padding: 15px 20px;
+        border-radius: 10px;
+        color: #4e5150;
+        background-color: #e5e5e5;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 1200px) {
+    .user--image {
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .user--area {
+        color: #a9a9a9;
+        font-size: 1.2rem;
+        margin: 10px;
+    }
+
+    .user--status {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+    }
+
+    span {
+        display: block;
+        padding: 0 20px;
+    }
+
+    .user--status li {
+        margin: 0 20px;
+        padding: 15px 20px;
+        border-radius: 10px;
+        color: #4e5150;
+        background-color: #e5e5e5;
+        font-weight: 700;
+    }
+}

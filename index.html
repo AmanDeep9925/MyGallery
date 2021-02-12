@@ -8,7 +8,7 @@
   maximum-scale=5"
     />
 
-    <link rel="icon" href="devchallenges.png" />
+    <link rel="icon" href="./assets/images/devchallenges.png" />
 
     <link
       rel="shortcut icon"
@@ -23,73 +23,45 @@
 
     <title>Devchallenges</title>
 
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
+    <link rel="stylesheet" href="./assets/css/style.css">
     </style>
   </head>
   <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
 
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
+    <div class="container">
+      <div class="user--info">
+        <img src="./assets/images/profilePhoto.png" alt="User" class="user--image">
+        <p class="user--name">Rodney Cotton</p>
+        <p class="user--area">Helsinki, Finland</p>
+        <ul class="user--status">
+          <li class="posts"><span>100</span> <span class="users--handle">Posts</span></li>
+          <li class="follower"><span>2,242 </span><span class="users--handle">Follower</span></li>
+          <li class="following"><span>1,432</span> <span class="users--handle">Following</span></li>
+        </ul>
       </div>
 
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+      <div class="images--container">
+        <ul class="images--list">
+          <li class="image--item image1">
+            <img src="./assets/images/photo1.png" alt="">
+          </li>
+            <li class="image--item image2">
+            <img src="./assets/images/photo2.png" alt="">
+          </li>
+          <li class="image--item image3">
+            <img src="./assets/images/photo3.png" alt="">
+          </li>
+          <li class="image--item image4 temp">
+            <img src="./assets/images/photo4.png" alt="">
+          </li>
+          <li class="image--item image5">
+            <img src="./assets/images/photo5.png" alt="">
+          </li>
+          <li class="image--item image6">
+            <img src="./assets/images/photo6.png" alt="">
+          </li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
